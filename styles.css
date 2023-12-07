@@ -1,0 +1,19 @@
+p{
+    color: brown;
+    font-size: 1rem;
+}
+
+.clase{
+    color: blue;
+    font-size: 1.5rem;
+}
+
+#ident{
+    color: darkgreen;
+    font-size: 1.2rem;
+}
+
+*{
+    text-align: center;
+}
+
