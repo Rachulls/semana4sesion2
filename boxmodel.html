@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles3.css" />
+    <title>Box-Model</title>
+  </head>
+  <header>
+    <a href="./index.html">Selectores simples</a>
+    <h1>BOX MODEL</h1>
+  </header>
+  <main>
+    <body>
+      <article>
+        <h2>Concepto</h2>
+        <p>
+          Es un concepto que describe cómo se representa visualmente cada
+          elemento (caja) HTML en una página web.
+        </p>
+        <h2>SELECTOR UNIVERSAL (*):</h2>
+        <p>
+          Se utiliza para aplicar reglas de estilo a todos los elementos de la
+          página.
+        </p>
+      </article>
+      <article>
+        <h2>Capas del Box Model:</h2>
+        <ol>
+          <li>Contenido (Content)</li>
+          <p>
+            Es el área donde se muestra el contenido del elemento, como texto,
+            imágenes, etc.
+          </p>
+          <li>Relleno (Padding):</li>
+          <p>Espacio entre el contenido y el borde.</p>
+          <li>Borde (Border):</li>
+          <p>Línea que rodea el contenido y el relleno.</p>
+          <li>Margen (Margin):</li>
+          <p>Espacio entre el borde del elemento y los elementos vecinos.</p>
+        </ol>
+      </article>
+      <article>
+        <h2>SHORTHAND PADDING</h2>
+        <ul>
+          <li>Un valor:</li>
+          <p>Se aplica el mismo valor a todos los lados.</p>
+          <p>Ejm: 5px</p>
+          <li>Dos valores:</li>
+          <p>
+            El primero se aplica arriba y abajo, el segundo se aplica a la
+            izquierda y derecha.
+          </p>
+          <p>Ejm: 10px 15px</p>
+          <li>Tres valores:</li>
+          <p>
+            El primero se aplica arriba, el segundo a la izquierda y derecha, y
+            el tercero abajo.
+          </p>
+          <p>Ejm: 5px 10px 5px</p>
+          <li>Cuatro valores:</li>
+          <p>Se aplican en el orden: arriba, derecha, abajo, izquierda.</p>
+          <p>Ejm: 10px 20px 10px 20px</p>
+        </ul>
+      </article>
+      <article>
+        <h2>SHORTHAND MARGIN</h2>
+        <ul>
+          <li>Un valor:</li>
+          <p>Se aplica el mismo valor a todos los lados.</p>
+          <p>Ejm: 5px</p>
+          <li>Dos valores:</li>
+          <p>
+            El primero se aplica arriba y abajo, el segundo se aplica a la
+            izquierda y derecha.
+          </p>
+          <p>Ejm: 10px 15px</p>
+          <li>Tres valores:</li>
+          <p>
+            El primero se aplica arriba, el segundo a la izquierda y derecha, y
+            el tercero abajo.
+          </p>
+          <p>Ejm: 5px 10px 5px</p>
+          <li>Cuatro valores:</li>
+          <p>Se aplican en el orden: arriba, derecha, abajo, izquierda.</p>
+          <p>Ejm: 10px 20px 10px 20px</p>
+        </ul>
+      </article>
+      <article>
+        <h3>Margin Negativo</h3>
+        <p>
+          El margin negativo es cuando asignas un valor negativo a la propiedad
+          margin de un elemento en CSS. Esto puede ser útil en algunos casos
+          específicos, se debe usar con precaución ya que puede tener efectos no
+          deseados y afectar el diseño de la página.
+        </p>
+        <p>Ejemplo: .elemento { margin-left: -10px; }</p>
+        <h3>Colapso de margenes verticales</h3>
+        <p>
+          Es un comportamiento en CSS donde los márgenes verticales de dos
+          elementos adyacentes se combinan o "colapsan" en lugar de sumarse. El
+          margen resultante es el mayor de los dos márgenes originales.
+        </p>
+        <p>Ejemplo:</p>
+        <p>
+          .elemento1 { margin-bottom: 20px; }
+          <br />
+          .elemento2 { margin-top: 30px; }
+        </p>
+        <p></p>
+        <h3>Centrado Perfecto Horizontal</h3>
+        <p>
+          El centrado perfecto horizontal es un enfoque para centrar un elemento
+          horizontalmente en su contenedor. Se puede lograr utilizando el
+          shorthand auto para las propiedades margin-left y margin-right del
+          elemento que deseas centrar.
+        </p>
+        <p>Ejemplo:</p>
+        <p>
+          .contenedor { text-align: center; }
+          <br />
+          .elemento { width: 50%; margin-left: auto; margin-right: auto; }
+        </p>
+      </article>
+    </body>
+    <div class="mi-caja">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore illo est
+        recusandae quo nobis. Accusamus assumenda, neque tempore sit dicta fuga
+        fugit repudiandae esse corporis nostrum nam veniam, ipsa ad.
+      </p>
+    </div>
+  </main>
+</html>
